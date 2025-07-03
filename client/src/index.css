@@ -4,3 +4,35 @@
 *{
     font-family: Outfit;
 }
+
+@layer base {
+    html{
+        scroll-behavior: smooth;
+    }
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+.rich-text {font-size: 15px; color: #7A7B7D;}
+
+.rich-text p { margin-bottom: 16px;}
+
+.rich-text h1 { font-size: 36px; font-weight: 800; colour: #252525; margin:auto}
+
+.rich-text h2 { font-size: 22px; font-weight: 700; colour: #252525; margin:auto}
+
+.rich-text h3 { font-size: 18px; font-weight: 600; colour: #333333; margin:auto}
+
+.rich-text h4 { font-size: 16px; font-weight: 500; colour: #444444; margin:auto}
+
+.rich-text h5 { font-size: 14px; font-weight: 400; colour: #555555; margin:auto}
+
+.rich-text h6 { font-size: 12px; font-weight: 400; colour: #666666; margin:auto}
+
+.rich-text strong { font-weight: 700;}
+
+.rich-text ol {margin-left: 30px; list-style-type: disc;}
+
+.rich-text li {margin-bottom: 8px;}
