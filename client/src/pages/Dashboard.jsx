@@ -34,7 +34,7 @@ const Dashboard = () => {
 
             <div className='flex items-start'>
                 {/* left Sidebar for add,manage,view jobs */}
-                <div className='inline-block min-h-screen border-r-2'>
+                <div className='inline-block min-h-screen border-r-2 border-gray-200 w-[250px] max-sm:w-[60px]'>
                     <ul className='flex flex-col items-start pt-5 text-gray-800'>
                         <NavLink className={({isActive}) => `flex items-center p-3 sm:px-6 gap-2 w-full hover:bg-gray-100 ${isActive && 'bg-blue-100 border-r-4 border-blue-500'}`} to={'/dashboard/add-job'}>
                             <img className='min-w-4' src={assets.add_icon} alt="" />
