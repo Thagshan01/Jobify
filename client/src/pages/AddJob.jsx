@@ -27,26 +27,27 @@ const AddJob = () => {
 
   return (
     <form className='container p-4 flex flex-col w-full gap-3'>
-      <div>
-        <p>Job Title</p>
+      <div className='w-full'>
+        <p className='mb-2'>Job Title</p>
         <input 
           type="text" 
           placeholder='Type here'
           value={title} 
           onChange={e => setTitle(e.target.value)}
           required
+          className='w-full max-w-lg px-3 py-2 border-2 border-gray-300 rounded'
         />
       </div>
 
-      <div>
-        <p>Job Description</p>
+      <div className='w-full max-w-lg'>
+        <p className='my-2'>Job Description</p>
         <div ref={editorRef}></div>
       </div>
 
-      <div>
+      <div className='flex flex-col gap-2 sm:flex-row w-full sm:gap-8'>
         <div>
-          <p>Job Category</p>
-          <select onChange={e => setCategory(e.target.value)}>
+          <p className='mb-2'>Job Category</p>
+          <select className='w-full px-3 py-2 border-2 border-gray-300 rounded' onChange={e => setCategory(e.target.value)}>
             {JobCategories.map((category, index) => (
               <option key={index} value={category}>{category}</option>
             ))}
@@ -54,8 +55,8 @@ const AddJob = () => {
         </div>
 
         <div>
-          <p>Job Location</p>
-          <select onChange={e => setLocation(e.target.value)}>
+          <p className='mb-2'>Job Location</p>
+          <select className='w-full px-3 py-2 border-2 border-gray-300 rounded' onChange={e => setLocation(e.target.value)}>
             {locations.map((location, index) => (
               <option key={index} value={location}>{location}</option>
             ))}
@@ -63,8 +64,8 @@ const AddJob = () => {
         </div>
 
         <div>
-          <p>Job Level</p>
-          <select onChange={e => setLevel(e.target.value)}>
+          <p className='mb-2'>Job Level</p>
+          <select className='w-full px-3 py-2 border-2 border-gray-300 rounded' onChange={e => setLevel(e.target.value)}>
             <option value="Beginner level">Beginner level</option>
             <option value="Intermediate level">Intermediate level</option>
             <option value="Senior level">Senior level</option>
@@ -73,15 +74,18 @@ const AddJob = () => {
       </div>
 
       <div>
-        <p>Job Salary</p>
+        <p className='mb-2'>Job Salary</p>
         <input 
+          min={0}
+          className='w-full px-3 py-2 border-2 border-gray-300 rounded sm:w-[120px]'
           onChange={e => setSalary(e.target.value)} 
           type="number" 
           placeholder='2500'
         />
       </div>
 
-      <button type="submit">ADD</button>
+      <button className='w-28 py-3 bg-black text-white rounded
+      ' type="submit">ADD</button>
     </form>
   );
 };
