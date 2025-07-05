@@ -9,6 +9,7 @@ import Dashboard from './pages/Dashboard'
 import AddJob from './pages/AddJob'
 import ManageJobs from './pages/ManageJobs'
 import ViewApplications from './pages/ViewApplications'
+import 'quill/dist/quill.snow.css'
 
 const App = () => {
 
