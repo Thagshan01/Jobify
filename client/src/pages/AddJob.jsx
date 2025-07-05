@@ -84,7 +84,7 @@ const AddJob = () => {
         />
       </div>
 
-      <button className='w-28 py-3 bg-black text-white rounded
+      <button className='w-28 py-3 bg-black text-white rounded hover:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-gray-400 focus:ring-opacity-50
       ' type="submit">ADD</button>
     </form>
   );

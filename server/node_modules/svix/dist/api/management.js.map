@@ -1,0 +1,1 @@
+{"version":3,"file":"management.js","sourceRoot":"","sources":["../../src/api/management.ts"],"names":[],"mappings":";;;AACA,yEAAsE;AAEtE,MAAa,UAAU;IACrB,YAAoC,UAA8B;QAA9B,eAAU,GAAV,UAAU,CAAoB;IAAG,CAAC;IAEtE,IAAW,cAAc;QACvB,OAAO,IAAI,mDAAwB,CAAC,IAAI,CAAC,UAAU,CAAC,CAAC;IACvD,CAAC;CACF;AAND,gCAMC"}
