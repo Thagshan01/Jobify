@@ -1,1 +1,0 @@
-{"version":3,"file":"apiTokenExpireIn.js","sourceRoot":"","sources":["../../src/models/apiTokenExpireIn.ts"],"names":[],"mappings":";;;AAQa,QAAA,0BAA0B,GAAG;IACxC,eAAe,CAAC,MAAW;QACzB,OAAO;YACL,MAAM,EAAE,MAAM,CAAC,QAAQ,CAAC;SACzB,CAAC;IACJ,CAAC;IAED,aAAa,CAAC,IAAsB;QAClC,OAAO;YACL,MAAM,EAAE,IAAI,CAAC,MAAM;SACpB,CAAC;IACJ,CAAC;CACF,CAAC"}
