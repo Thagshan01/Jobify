@@ -10,7 +10,6 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
   "dependencies": {
     "@sentry/node": "^9.35.0",
     "@sentry/profiling-node": "^9.35.0",
@@ -20,11 +19,12 @@
     "dotenv": "^17.0.1",
     "express": "^5.1.0",
     "jsonwebtoken": "^9.0.2",
-    "mongoose": "^8.16.1",
+    "mongoose": "^8.16.2",
     "multer": "^2.0.1",
-    "svix": "^1.68.0"
+    "svix": "^1.69.0"
   },
   "devDependencies": {
     "nodemon": "^3.1.10"
-  }
+  },
+  "description": ""
 }
