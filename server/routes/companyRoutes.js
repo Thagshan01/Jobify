@@ -4,7 +4,7 @@ import { changeJobApplicationStatus, changeJobVisibility, getCompanyData, getCom
 const router = express.Router();
 
 //register company
-router.post('/register', registerCompany);
+router.post('/register',upload.single('image'), registerCompany);
 
 //company login
 router.post('/login', loginCompany);
